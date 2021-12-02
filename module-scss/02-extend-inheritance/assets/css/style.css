@@ -10,15 +10,24 @@
   color: #fff;
   font-weight: 600;
 }
+.btn.btn-orange:hover {
+  background: #cc8400;
+}
 .btn.btn-blueviolet {
   background: blueviolet;
   color: #fff;
   font-weight: 600;
 }
+.btn.btn-blueviolet:hover {
+  background: #701ac0;
+}
 .btn.btn-blue {
   background: blue;
   color: #fff;
   font-weight: 600;
+}
+.btn.btn-blue:hover {
+  background: #0000cc;
 }
 
 /*# sourceMappingURL=style.css.map */
