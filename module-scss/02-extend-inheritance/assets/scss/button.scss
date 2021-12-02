@@ -6,7 +6,23 @@
     border-radius: 10px;
 }
 
+@mixin button-style($background, $color) {
+    background: $background;
+    color: $color;
+    font-weight: 600;
+}
+
 .btn-orange{
     @extend .btn;
-    background: $color-orange;
+    @include button-style($color-orange,#fff)
+}
+
+.btn-blueviolet{
+    @extend .btn;
+    @include button-style($color-blueviolet,#fff)
+}
+
+.btn-blue{
+    @extend .btn;
+    @include button-style($color-blue,#fff)
 }

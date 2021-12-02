@@ -1,4 +1,4 @@
-.btn, .btn-orange {
+.btn, .btn-blue, .btn-blueviolet, .btn-orange {
   width: 200px;
   padding: 10px;
   background: none;
@@ -8,10 +8,20 @@
 
 .btn-orange {
   background: orange;
+  color: #fff;
+  font-weight: 600;
 }
 
-p {
-  color: orange;
+.btn-blueviolet {
+  background: blueviolet;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-blue {
+  background: blue;
+  color: #fff;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
