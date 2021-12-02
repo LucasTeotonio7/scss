@@ -1,24 +1,21 @@
-.btn, .btn-blue, .btn-blueviolet, .btn-orange {
+.btn {
   width: 200px;
   padding: 10px;
   background: none;
   border: 0;
   border-radius: 10px;
 }
-
-.btn-orange {
+.btn.btn-orange {
   background: orange;
   color: #fff;
   font-weight: 600;
 }
-
-.btn-blueviolet {
+.btn.btn-blueviolet {
   background: blueviolet;
   color: #fff;
   font-weight: 600;
 }
-
-.btn-blue {
+.btn.btn-blue {
   background: blue;
   color: #fff;
   font-weight: 600;

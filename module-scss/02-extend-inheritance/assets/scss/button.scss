@@ -1,28 +1,25 @@
-.btn{
-    width: 200px;
-    padding: 10px;
-    background: none;
-    border: 0;
-    border-radius: 10px;
-}
-
 @mixin button-style($background, $color) {
     background: $background;
     color: $color;
     font-weight: 600;
 }
 
-.btn-orange{
-    @extend .btn;
-    @include button-style($color-orange,#fff)
-}
+.btn{
+    width: 200px;
+    padding: 10px;
+    background: none;
+    border: 0;
+    border-radius: 10px;
 
-.btn-blueviolet{
-    @extend .btn;
-    @include button-style($color-blueviolet,#fff)
-}
+    &.btn-orange{
+        @include button-style($color-orange,#fff)
+    }
 
-.btn-blue{
-    @extend .btn;
-    @include button-style($color-blue,#fff)
+    &.btn-blueviolet{
+        @include button-style($color-blueviolet,#fff)
+    }
+
+    &.btn-blue{
+        @include button-style($color-blue,#fff)
+    }
 }
